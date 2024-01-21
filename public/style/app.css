@@ -1,0 +1,103 @@
+/* FONTS */
+@font-face {
+  font-family: "";
+  src: url("../assets/fonts/");
+}
+/* BODY */
+body {
+  background-color: #A8DADC;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* HEADER */
+/* RESPONSIVE */
+/* MAIN */
+#title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #1D3557;
+}
+
+#bigBottle {
+  height: 300px;
+  width: 150px;
+  border-radius: 0 0 50px 50px;
+  border: 4px solid #1D3557;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  overflow: hidden;
+}
+#bigBottle #water {
+  position: absolute;
+  bottom: 0;
+  background-color: #457B9D;
+  height: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #F1FAEE;
+  transition: 0.2s;
+}
+#bigBottle #air {
+  position: absolute;
+  top: 0;
+  background-color: #F1FAEE;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #457B9D;
+  transition: 0.2s;
+}
+
+#smallBottles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#smallBottles .upperBottles, #smallBottles .underBottles {
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+}
+#smallBottles .upperBottles .smallBottle, #smallBottles .underBottles .smallBottle {
+  height: 100px;
+  width: 50px;
+  border-radius: 0 0 50px 50px;
+  border: 4px solid #1D3557;
+  border-top: none;
+  background-color: #F1FAEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #1D3557;
+  transition: 0.2s;
+}
+#smallBottles .upperBottles .smallBottle:hover, #smallBottles .underBottles .smallBottle:hover {
+  cursor: pointer;
+  box-shadow: rgba(29, 53, 87, 0.4) 5px 5px, rgba(29, 53, 87, 0.3) 10px 10px, rgba(29, 53, 87, 0.2) 15px 15px, rgba(29, 53, 87, 0.1) 20px 20px, rgba(29, 53, 87, 0.05) 25px 25px;
+}
+
+/* RESPONSIVE */
+/* FOOTER */
+/* RESPONSIVE */
+
+/*# sourceMappingURL=app.css.map */
